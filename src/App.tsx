@@ -13,6 +13,8 @@ import { MDBTimeline } from './timelines/mdb/MDBTimeline'
 import SuiteTimeline from './timelines/suite/SuiteTimeline'
 import CronoTimeline from './timelines/crono/CronoTimeline'
 import CustomTimeline from './timelines/crono/CustomChronoTimeline'
+import StepNavigation from './timelines/mui/StepsMUI'
+import FormWizardSample from './timelines/wizard/WizardSteps'
 
 function App() {
 
@@ -50,6 +52,12 @@ function App() {
       <Divider style={{paddingBottom: 50}}/>
 
       <CustomTimeline />
+      <Divider style={{paddingBottom: 50}}/>
+
+      <StepNavigation />
+      <Divider style={{paddingBottom: 50}}/>
+
+      <FormWizardSample />
       <Divider style={{paddingBottom: 50}}/>
     </>
   )
